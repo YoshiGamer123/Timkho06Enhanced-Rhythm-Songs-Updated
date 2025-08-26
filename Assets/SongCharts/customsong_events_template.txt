@@ -1,0 +1,12 @@
+drums,4.85,sprite_index,30,1
+
+vocals,9,sprite_index,739,1
+
+vocals,15,sprite_index,spr_ralsei_sing_cuss,sprite_get_name
+
+vocals,22.20,mid,5366,1
+vocals,22.20,idle,5366,1
+vocals,22.20,animspeed,1,1
+vocals,22.20,sprite_index,5366,1
+
+rhythm,25,notespeed,10,1

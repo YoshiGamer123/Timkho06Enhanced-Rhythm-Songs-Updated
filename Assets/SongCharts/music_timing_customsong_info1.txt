@@ -1,0 +1,12 @@
+CUSTOM_SONGS/JustAddWater.ogg
+CUSTOM_SONGS/JustAddWater.ogg
+
+135
+135
+38525, 48155, 57785, 67415, 77050
+CUSTOM_SONGS/JustAddWater.ogg
+CUSTOM_SONGS/JustAddWater.ogg
+-1
+Custom Song 1 Test
+
+customalbum6
