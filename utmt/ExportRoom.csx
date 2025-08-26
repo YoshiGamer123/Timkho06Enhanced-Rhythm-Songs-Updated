@@ -1,3 +1,5 @@
+//fully made by gpt btw
+
 // Written by SolventMercury - Modified to Export Rooms
 // Converted Import script to Export script
 
@@ -424,4 +426,5 @@ void WriteTilesLayer(Utf8JsonWriter writer, UndertaleRoom.Layer layer)
     writer.WriteEndArray();
 
     writer.WriteEndObject();
+
 }
