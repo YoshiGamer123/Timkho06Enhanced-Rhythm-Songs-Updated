@@ -1,4 +1,5 @@
 # Credits To Timkho06 for making the original mod
+# Make Sure That you taken "SongChart" and "SongAlbum" Out Of The Asset Folder
 ![alt text](https://images.gamebanana.com/img/ss/mods/68650bcccd61b.jpg)
 A Repository that Makes this mod (https://gamebanana.com/mods/600783) fully update to date to Deltarune
 
