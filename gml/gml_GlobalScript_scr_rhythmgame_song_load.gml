@@ -154,9 +154,10 @@ function scr_rhythmgame_load_song(arg0 = 0, arg1 = true, arg2 = true, arg3 = fal
         track_length = 137.846;
         notespeed = 120;
     }
-    else if (arg0 >= 11 && file_exists("SongCharts/music_timing_customsong_info" + string(arg0 - 10) + ".txt"))
+        else if (arg0 >= 11)
     {
-        var _file = file_text_open_read("SongCharts/music_timing_customsong_info" + string(arg0 - 10) + ".txt");
+        var custom_song_num = arg0 - 10;
+        var _file = file_text_open_read("SongCharts/music_timing_customsong_info" + string(custom_song_num) + ".txt");
         var l_arg = [];
         var line_ind = 0;
         
@@ -380,7 +381,7 @@ function scr_rhythmgame_song_select_id(arg0)
         return 0;
     else if (arg0 == 4)
         return 2;
-    else if (arg0 == 5 && file_exists("SongCharts/music_timing_customsong_info" + string(arg0 - 4) + ".txt"))
+    else if (arg0 >= 5 && file_exists("SongCharts/music_timing_customsong_info" + string(arg0 - 4) + ".txt"))
         return 6 + arg0;
 }
 
