@@ -47,7 +47,7 @@ if (song_menu)
         if (global.chapter == 3)
             song_id = selection;
         else
-            scr_rhythmgame_song_select(dojoFlag[selection]);
+            song_id = scr_rhythmgame_song_select_id(selection);
         
         load_chart();
         song_menu = false;
