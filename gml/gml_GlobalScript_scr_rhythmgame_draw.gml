@@ -89,7 +89,7 @@ function scr_rhythmgame_draw_border(arg0, arg1 = false)
     
     draw_set_color(merge_color(c_black, _bordercolor, brightness));
     
-    if (!arg1)
+    if (!arg1 && !demo_mode)
     {
         var _jp = global.lang == "ja";
         var _name, _hoff;
@@ -115,6 +115,16 @@ function scr_rhythmgame_draw_border(arg0, arg1 = false)
     
     ossafe_fill_rectangle(arg0 - 40, bottomy - 200, arg0 + 40, bottomy + 50, true);
     ossafe_fill_rectangle(arg0 - 41, bottomy - 201, arg0 + 41, bottomy + 51, true);
+    
+    if (!arg1 && demo_mode)
+    {
+        draw_set_halign(fa_center);
+        draw_set_valign(fa_middle);
+        draw_set_font(fnt_mainbig);
+        draw_text_outline(arg0 + 2, bottomy - 100, "DEMO", 2, 2, 0);
+        draw_set_halign(fa_left);
+        draw_set_valign(fa_top);
+    }
 }
 
 function scr_rhythmgame_draw_combo(arg0)
