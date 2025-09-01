@@ -104,8 +104,8 @@ with (drums)
     
     if (!_performer)
     {
-        performer.visible = false;
-        demo_mode = true;
+        performer.visible = true;
+        demo_mode = false;
         mashcon = 0;
     }
 }
@@ -122,8 +122,8 @@ with (vocals)
     
     if (!_performer)
     {
-        performer.visible = false;
-        demo_mode = true;
+        performer.visible = true;
+        demo_mode = false;
         other.draw_lyrics = false;
     }
 }
@@ -565,3 +565,4 @@ track_jump = function(arg0)
     remtrackpos[1] += arg0;
     remtrackpos[0] += arg0;
 };
+
