@@ -6,5 +6,9 @@ A Repository that Makes this mod (https://gamebanana.com/mods/600783) fully upda
 A mod that's fully dedicated to making Rhythm Song Charting a lot easier than it could even be!
 
 
-note:
+# Compatibility:
+# E.R.S.U and Lightner's Live NEO Is a completely different mod and do not work with together.
+If you would Like to use the .neo Files. You would have to install and use [Lightner's Live NEO](https://gamebanana.com/mods/601477)
+
+
 (all of the code may not be fully ripped from its xdelta)
